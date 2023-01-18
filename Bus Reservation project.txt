@@ -1,0 +1,35 @@
+Create a console application for booking a ticket for a bus.
+
+Create Relevant Tables to implement the following features:
+
+Customer Module:
+1. Registration - to create an account to book tickets
+2. Login - to book, cancel and make payments
+3. Bus Availability Enquiry - This module will take details from user such as 
+departure station, destination station, travelling date span, type of ticket 
+(one way/return), return date (for return ticket), no of passengers. This 
+detail will be compared with the bus database and return the user details 
+of the available buses
+4. Make Reservation - Based on the selected bus, user will be required to 
+confirm booking by going through payment module. 
+5 Cancel Reservation: A valid user of the application will be able to cancel 
+any booked tickets with specified time. 
+6. Print Ticket: Printing ticket facility should be provided in the application. 
+7. Wallet payment: payment options should be added in the 
+application to provide user flexibility of choosing suitable payment 
+options.
+
+Admin Module:
+1. Update Route: Admin will have the option to update route of a 
+bus. 
+2. Add/Update Bus: Admin can add new bus and update existing 
+bus details like number of seats, source, destinations etc.
+
+Notes:
+1. Use ADO.NET to store and retrieve data
+2. Handle Exceptions with user defined messages
+3. Test the modules using Nunit
+4. Follow Design pattern (Interface should be used)
+
+
+
